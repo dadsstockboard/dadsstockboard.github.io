@@ -1,6 +1,7 @@
 {
     "stocks": [
         "NBIS",
-        "JPM"
+        "JPM",
+        "NVDA"
     ]
 }
