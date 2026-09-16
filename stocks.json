@@ -2,6 +2,7 @@
     "stocks": [
         "NBIS",
         "JPM",
-        "CRWV"
+        "CRWV",
+        "NVDA"
     ]
 }
