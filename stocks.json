@@ -1,9 +1,3 @@
 {
-    "stocks": [
-        "NBIS",
-        "JPM",
-        "NVDA",
-        "AAPL",
-        "SPY"
-    ]
+    "stocks": []
 }
