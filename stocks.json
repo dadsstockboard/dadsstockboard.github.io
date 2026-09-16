@@ -2,6 +2,7 @@
     "stocks": [
         "NBIS",
         "CRWV",
-        "AAPL"
+        "AAPL",
+        "SPY"
     ]
 }
