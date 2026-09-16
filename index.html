@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dad's Stock Board</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            DAD'S <span>STOCK BOARD</span>
+        </div>
+
+        <div class="subtitle">
+            Control the stocks displayed on the LED board
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- Add Stock -->
+        <section class="add-box">
+
+            <div class="section-title">
+                Add a Stock
+            </div>
+
+            <div class="input-row">
+
+                <input
+                    type="text"
+                    id="stockInput"
+                    placeholder="Enter a stock symbol (e.g. NBIS)"
+                    maxlength="10"
+                    autocomplete="off"
+                >
+
+                <button id="addButton">
+                    + Add Stock
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- Stock List -->
+        <section class="stocks-section">
+
+            <div class="section-title">
+                Stocks on the Board
+            </div>
+
+            <div class="stock-count" id="stockCount">
+                0 stocks
+            </div>
+
+            <div id="stockList">
+
+                <div class="empty-message">
+                    No stocks added.<br>
+                    Enter a symbol above to get started.
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Board Status -->
+        <div class="board-status">
+
+            <div class="status-dot"></div>
+
+            <div class="status-text">
+                <strong>LED Board</strong> &nbsp;•&nbsp; Stock list ready
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+        Happy birthday Dad! &nbsp;•&nbsp; Love ya!
+    </footer>
+
+    <script src="website.js"></script>
+
+</body>
+
+</html>
+
+
+
+

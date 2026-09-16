@@ -1,0 +1,235 @@
+
+
+
+/***********************************************************************/
+/*****                        PAGE FUNCTIONS                       *****/
+/***********************************************************************/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #080b0f;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    width: 100%;
+    padding: 30px 20px;
+    text-align: center;
+    border-bottom: 1px solid #20262d;
+    background: #0d1117;
+}
+
+.logo {
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    color: #00ff88;
+}
+
+.subtitle {
+    margin-top: 8px;
+    color: #8b949e;
+    font-size: 15px;
+}
+
+/* Main content */
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+/* Add stock box */
+.add-box {
+    background: #0d1117;
+    border: 1px solid #20262d;
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.input-row {
+    display: flex;
+    gap: 10px;
+}
+
+#stockInput {
+    flex: 1;
+    padding: 15px 18px;
+    background: #080b0f;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+#stockInput:focus {
+    border-color: #00ff88;
+    box-shadow: 0 0 10px rgba(0, 255, 136, 0.15);
+}
+
+#addButton {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    background: #00ff88;
+    color: #06100b;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#addButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(0, 255, 136, 0.35);
+}
+
+/* Stock list */
+.stocks-section {
+    margin-top: 35px;
+}
+
+.stock-count {
+    color: #8b949e;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#stockList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+/* Individual stock */
+.stock-card {
+    background: #0d1117;
+    border: 1px solid #20262d;
+    border-radius: 14px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.2s;
+}
+
+.stock-card:hover {
+    border-color: #00ff88;
+    transform: translateY(-2px);
+}
+
+.stock-symbol {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.stock-status {
+    margin-top: 5px;
+    color: #00ff88;
+    font-size: 12px;
+}
+
+.remove-button {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 8px;
+    background: #1b2128;
+    color: #ff5c5c;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.remove-button:hover {
+    background: #ff5c5c;
+    color: white;
+}
+
+/* Empty state */
+.empty-message {
+    text-align: center;
+    padding: 50px 20px;
+    border: 1px dashed #30363d;
+    border-radius: 14px;
+    color: #6e7681;
+}
+
+/* Board status */
+.board-status {
+    margin-top: 35px;
+    padding: 18px 20px;
+    border-radius: 12px;
+    background: #0d1117;
+    border: 1px solid #20262d;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    background: #00ff88;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #00ff88;
+}
+
+.status-text {
+    font-size: 14px;
+    color: #8b949e;
+}
+
+.status-text strong {
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    color: #484f58;
+    font-size: 12px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    .logo {
+        font-size: 29px;
+    }
+
+    .input-row {
+        flex-direction: column;
+    }
+
+    #addButton {
+        width: 100%;
+    }
+
+    main {
+        width: 94%;
+        margin-top: 25px;
+    }
+}
