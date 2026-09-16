@@ -1,8 +1,6 @@
 {
     "stocks": [
-        "NBIS",
         "CRWV",
-        "AAPL",
-        "SPY"
+        "AAPL"
     ]
 }
