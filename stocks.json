@@ -1,7 +1,6 @@
 {
     "stocks": [
         "NBIS",
-        "AAPL",
         "JPM",
         "TSLA",
         "BST"
