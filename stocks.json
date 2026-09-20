@@ -2,8 +2,6 @@
     "stocks": [
         "NBIS",
         "AAPL",
-        "JPM",
-        "TESL",
-        "BST"
+        "JPM"
     ]
 }
