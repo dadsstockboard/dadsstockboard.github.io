@@ -1,7 +1,6 @@
 {
     "stocks": [
         "NBIS",
-        "BST",
         "AAPL"
     ]
 }
