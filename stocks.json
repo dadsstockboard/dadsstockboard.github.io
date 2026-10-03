@@ -2,7 +2,6 @@
     "stocks": [
         "NBIS",
         "JPM",
-        "BST",
-        "FAG"
+        "BST"
     ]
 }
