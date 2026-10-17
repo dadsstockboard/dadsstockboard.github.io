@@ -2,6 +2,7 @@
     "stocks": [
         "NBIS",
         "APPL",
-        "JPM"
+        "JPM",
+        "BGSAX"
     ]
 }
